@@ -17,22 +17,35 @@ in the Backtrack_V matrices.
 
 The Backtrack matrix shows from which cell the minimum value was calculated from, using the
 following numbers:
+
 1 : previous cell
+
 2 : down cell
+
 3 : V matrix
+
 4 : k
 
 Since there is the possibility that two energy values might be equal and minimum I also included
 these cases in the Backtrack matrix:
+
 5 : previous cell and down cell (1 and 2)
+
 6 : previous cell and V matrix (1 and 3)
+
 7 : previous cell and k (1 and 4)
+
 8 : down cell and V matrix (2 and 3)
+
 9 : down cell and k (2 and 4)
+
 10 : V matrix and k (3 and 4)
+
 In the Backtack_V it is stored if the minimum energy comes from a hairpin or from a stacking
 region:
+
 11 : hairpin
+
 12 : stacking
 
 V matrix:
