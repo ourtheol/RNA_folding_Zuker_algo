@@ -37,20 +37,26 @@ region:
 
 V matrix:
 
+![V matrix:](https://github.com/ourtheol/RNA_folding_Zuker_algo/blob/main/Pictures/Vmatrix.png)
 
 W matrix:
 
+![W matrix:](https://github.com/ourtheol/RNA_folding_Zuker_algo/blob/main/Pictures/Wmatrix.png)
 
 Backtrack matrix:
+
 The secondary structures of the given RNA sequence can be identified by the Backtrack matrix.
 The following Backtrack matrix corresponds to 4 secondary structures of the given RNA sequence:
 
+![Backtrack matrix:](https://github.com/ourtheol/RNA_folding_Zuker_algo/blob/main/Pictures/Backtrackmatrix.png)
 
 Backtrack_V matrix:
 
+![Backtrack_V matrix:](https://github.com/ourtheol/RNA_folding_Zuker_algo/blob/main/Pictures/Backtrack_V%20matrix.png)
 
 Optimal folds:
 
+![Optimal folds:](https://github.com/ourtheol/RNA_folding_Zuker_algo/blob/main/Pictures/folds.png)
 
 
 
